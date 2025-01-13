@@ -1,0 +1,27 @@
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+rn-app-examples/.expo/**
+rn-app-examples/.yarn/**
+
+# macOS
+.DS_Store
+
+# IntelliJ
+.idea/**
+*.iml
+
+# Project files
+*/.yarn/**
+*/node_modules/**
+
+# Secrets
+env.js
