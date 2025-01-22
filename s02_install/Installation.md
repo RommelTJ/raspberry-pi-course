@@ -23,7 +23,7 @@
 
 ## Find the Raspberry Pi's IP address
 
-TODO
+* I used the Unifi router for this.
 
 ## Connect to your Pi using SSH
 
