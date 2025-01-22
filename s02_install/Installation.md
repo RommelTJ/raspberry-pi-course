@@ -32,7 +32,16 @@
 
 ## Set up VNC to get remote access to your Raspberry Pi OS Desktop 
 
-TODO
+* SSH into the Raspberry Pi
+* `sudo raspi-config`
+*  Interface Options
+  * Enable VNC Server
+* System Options
+  * Boot / Auto Login
+    * Desktop Autologin
+* Finish and reboot
+* Then log in with your VNC client. I'm using "TigerVNC" (1.14.1) on my Mac.
+  * Sometimes Home IP addresses change, so you may need to find the IP address again.
 
 ## Finish the Startup Configuration
 
