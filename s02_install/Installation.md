@@ -27,7 +27,8 @@
 
 ## Connect to your Pi using SSH
 
-TODO
+* Open the terminal of choice
+* ssh pi@raspberrypi2.local or the raspberrypi2 IP address
 
 ## Set up VNC to get remote access to your Raspberry Pi OS Desktop 
 
