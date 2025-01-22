@@ -19,7 +19,7 @@
 
 ## Boot your Raspberry Pi for the first time
 
-TODO
+* Plug it in.
 
 ## Find the Raspberry Pi's IP address
 
