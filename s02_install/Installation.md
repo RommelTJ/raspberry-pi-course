@@ -45,12 +45,18 @@
 
 ## Finish the Startup Configuration
 
-TODO
+* You can change settings to your liking under Settings > Preferences > Raspberry Pi Configuration
+* Install updates
+* To shut down, Menu > Shutdown
 
 ## Extra: Raspberry Pi Connect
 
-TODO
+* Skipped because we're using TigerVNC
 
 ## Extra: If you have to connect to a new WiFi network
 
-TODO
+* Options
+  * External monitor / keyboard
+  * Ethernet cable
+  * Phone hotspot
+  * Configure the Pi to be a WiFi hotspot (ahead of time, obviously)
