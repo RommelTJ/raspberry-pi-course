@@ -23,7 +23,8 @@
 
 ## Functions
 
-TODO
+* A function is a reusable piece of code that you can call from anywhere in your program.
+* See 04_functions.py
 
 ## Variable Scopes
 
