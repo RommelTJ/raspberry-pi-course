@@ -2,7 +2,8 @@
 
 ## First Python Program
 
-TODO
+* Using Thonny IDE
+* See hello.py
 
 ## Variables
 
