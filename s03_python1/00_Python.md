@@ -13,7 +13,13 @@
 
 ## Data Types
 
-TODO
+* Data types
+  * Integers
+  * Floats
+  * Strings
+  * Booleans
+* See 03_datatypes.py
+* In Python, variable types are dynamic. They can change
 
 ## Functions
 
