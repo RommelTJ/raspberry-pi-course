@@ -28,7 +28,15 @@
 
 ## Variable Scopes
 
-TODO
+* Variables have scopes
+* Depending on where they are declared, they can be used in different parts of your program.
+* Types of scopes
+* Global scope
+  * Variables declared in the global scope can be used anywhere in the program.
+* Local scope
+  * Variables declared in the local scope can only be used in the function where they are declared.
+* Function parameters are local variables.
+* See 05_scopes.py
 
 ## Exercise
 
