@@ -40,4 +40,5 @@
 
 ## Exercise
 
-TODO
+* Create a function that will concatenate two strings and return the result in upper-case.
+* See 06_exercise.py
