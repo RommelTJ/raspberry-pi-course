@@ -6,6 +6,13 @@
 
 ## Condition Operators
 
+* `>`
+* `>=`
+* `<`
+* `<=`
+* `==`
+* `!=`
+
 ## Validate User Input Exercise
 
 ## Loops
