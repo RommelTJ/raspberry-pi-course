@@ -22,6 +22,8 @@
 
 ## Loops
 
+* See 03_loops.py
+
 ## Lists
 
 ## Compute Max Value Inside a List Exercise
