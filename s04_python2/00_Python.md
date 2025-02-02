@@ -30,5 +30,8 @@
 
 ## Compute Max Value Inside a List Exercise
 
+* Program that goes through a list of integer numbers anc calculates the maximum value inside the list.
+* See 05_compute_max_value.py
+
 ## Python Modules
 
