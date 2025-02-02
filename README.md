@@ -2,7 +2,7 @@
 
 Raspberry Pi for beginners
 
-Version: 0.3.0 - 26 Jan 2025
+Version: 0.4.0 - 1 Feb 2025
 
 ## Description
 
