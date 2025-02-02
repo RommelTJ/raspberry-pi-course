@@ -35,3 +35,10 @@
 
 ## Python Modules
 
+* You can import modules from the Python Standard Library.
+* You can also create your own modules to organize your code.
+
+```python
+import time
+time.sleep(1.0)
+```
