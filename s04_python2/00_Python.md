@@ -26,6 +26,8 @@
 
 ## Lists
 
+* See 04_lists.py
+
 ## Compute Max Value Inside a List Exercise
 
 ## Python Modules
