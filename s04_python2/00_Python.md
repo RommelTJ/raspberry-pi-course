@@ -15,6 +15,11 @@
 
 ## Validate User Input Exercise
 
+* Program asks for a number between 1 and 100.
+* If the number is between 1 and 100, print "Valid number".
+* If the number is not between 1 and 100, print "Invalid number".
+* See 02_validate_input.py
+
 ## Loops
 
 ## Lists
