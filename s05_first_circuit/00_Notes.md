@@ -51,12 +51,6 @@ Examples:
 - A 5 band resistor. The first 3 bands are brown and black, the middle band is brown, the last band is gold.
   - 1 + 0 + 0 = 100; 100 * 10 Ohm = 1k Ohm
 
-## The LEDs color code
-
-- Red: 1k Ohm
-- Orange: 100k Ohm
-- Black: 10k Ohm
-
 ## Building a circuit
 
 * You start with the ground.
