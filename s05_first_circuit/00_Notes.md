@@ -10,3 +10,12 @@
 - Start the circuit by connecting the GND (ground) for all components.
 - Don't put a 5V signal on a GPIO pin (3.3V max).
 
+## Understand how a Breadboard Works
+
+- Useful for prototyping and testing.
+- You can plug in wires, resistors, LEDs, etc.
+- Underneath the board, there are wires connecting all components on this line.
+- The blue line is the GND (ground) line.
+- The red line is the 5V (power) line.
+- All the dots are connected to the same line.
+- The dots in the middle are connected vertically. That's where you connect the GPIO pins.
