@@ -56,3 +56,13 @@ Examples:
 - Red: 1k Ohm
 - Orange: 100k Ohm
 - Black: 10k Ohm
+
+## Building a circuit
+
+* You start with the ground.
+* From the Pi pins, count to the fifth pin. That pin is the ground. Connect it to a ground pin on the breadboard.
+* By convention, ground is usually connected vi a black wire.
+* Then, connect the LED. The short side is the negative side and the long side is the positive side.
+* Connect the short side of the LED to the ground on the breadboard.
+* Connect the long side of the LED to a resistor to any dot in the middle of the breadboard.
+* Finally, to close the circuit, connect the resistor to the GPIO 17 pin on the Pi, (which is to the right of the ground), via a yellow wire.
