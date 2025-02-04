@@ -13,3 +13,8 @@
     * Read Data from sensor. High (3.3V) or Low (close to 0V).  
   * Output: When you want to send data to the GPIO.
     * Write data to actuator. High (3.3V) or Low (close to 0V).
+
+## Create a Python program to make an LED blink
+
+* Open Thonny and create a new Python file.
+* See 01_BlinkControl.py
