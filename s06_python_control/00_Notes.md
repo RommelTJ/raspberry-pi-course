@@ -18,3 +18,11 @@
 
 * Open Thonny and create a new Python file.
 * See 01_BlinkControl.py
+
+## Set the LED's state from user input
+
+* Take the input from the user, 0 or 1.
+* If the user enters 0, turn the LED off.
+* If the user enters 1, turn the LED on.
+* See 02_BlinkControl.py
+
