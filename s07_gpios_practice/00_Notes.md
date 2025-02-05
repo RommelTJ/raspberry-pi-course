@@ -4,3 +4,6 @@
 
 * Make the LED power on when the button is pressed, and off when the button is released.
 * See 01_ButtonControl2.py
+* Then optimize it to use less CPU.
+  * We add a sleep to the loop to reduce the CPU usage.
+  * See 01_ButtonControl2_lessCPU.py
