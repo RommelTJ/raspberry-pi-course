@@ -34,3 +34,7 @@
 * Set up a ground wire to the breadboard on the same row as the push button.
 * Add a resistor to the other side of the push button.
 * Complete the circuit to GPIO 26 (Pin 37; second to last pin on the inside of the Pi).
+
+## Detect when a button is pressed with Python
+
+* See 03_ButtonControl.py
