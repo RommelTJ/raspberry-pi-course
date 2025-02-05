@@ -6,4 +6,5 @@
 * See 01_ButtonControl2.py
 * Then optimize it to use less CPU.
   * We add a sleep to the loop to reduce the CPU usage.
+  * Sleep of 0.01 seconds is running at 100 Hz
   * See 01_ButtonControl2_lessCPU.py
