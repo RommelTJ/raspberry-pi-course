@@ -26,3 +26,11 @@
 * If the user enters 1, turn the LED on.
 * See 02_BlinkControl.py
 
+## Add a Push button to your circuit
+
+* Shut down the Pi.
+* Grab a push button and a resistor.
+* Connect the push button to the middle of the breadboard.
+* Set up a ground wire to the breadboard on the same row as the push button.
+* Add a resistor to the other side of the push button.
+* Complete the circuit to GPIO 26 (Pin 37; second to last pin on the inside of the Pi).
