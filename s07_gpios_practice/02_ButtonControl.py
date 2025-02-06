@@ -17,5 +17,4 @@ def switch_lights():
     led_index = (led_index + 1) % len(lights)
 
 button.when_pressed = switch_lights
-
 pause()

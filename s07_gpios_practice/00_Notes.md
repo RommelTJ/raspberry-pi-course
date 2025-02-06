@@ -28,3 +28,8 @@
   * And so on, cycling through the colors
 * See 02_ButtonControl.py
 * We then added a bounce time to the button to make it easier to press
+
+## Optimize your code with lists
+
+* Optimize the code to accept any kind of LEDs
+* See s07_03_ArbitraryButtonControl.py
