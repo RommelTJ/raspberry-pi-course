@@ -27,3 +27,4 @@
   * Third push is green light on
   * And so on, cycling through the colors
 * See 02_ButtonControl.py
+* We then added a bounce time to the button to make it easier to press

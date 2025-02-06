@@ -1,7 +1,7 @@
 from gpiozero import LED, Button
 from signal import pause
 
-button = Button(26)
+button = Button(26, bounce_time=0.05)
 
 red_led = LED(17)
 blue_led = LED(27)
