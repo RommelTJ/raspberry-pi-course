@@ -14,3 +14,16 @@ Used to turn on lights, for example. Using HC-SR501. The output of the sensor if
     We are leaving it in the middle.
   * The second potentiometer controls the delay of the sensor. How long the sensor will stay high after detecting movement.
     The minimum is 3s. The maximum is 300s (5 minutes). We are leaving it in the minimum.
+
+## Add the PIR sensor to your circuit
+
+* Grab the sensor and a resistor.
+* With the PIR sensor facing up, connect the left pin to the ground pin of the breadboard.
+* The middle pin of the PIR sensor is the data pin.
+* The right pin of the PIR sensor is the power pin.
+* Connect the power pin to the 5v pin of the Pi. We used Pin 2.
+* Place the resistor on the breadboard.
+* Connect the data pin to one side of the resistor.
+* Connect the other side of the resistor to GPIO 4 (Pin 7 to the left of the ground).
+* You're done!
+
