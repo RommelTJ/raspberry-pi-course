@@ -27,3 +27,7 @@ Used to turn on lights, for example. Using HC-SR501. The output of the sensor if
 * Connect the other side of the resistor to GPIO 4 (Pin 7 to the left of the ground).
 * You're done!
 
+## Detect movement with Python
+
+* The PIR sensor takes about 1 minute to initialize.
+* See s08_01_detect_movement.py
