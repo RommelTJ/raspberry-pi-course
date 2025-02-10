@@ -31,3 +31,9 @@ Used to turn on lights, for example. Using HC-SR501. The output of the sensor if
 
 * The PIR sensor takes about 1 minute to initialize.
 * See s08_01_detect_movement.py
+
+## Automatic Lighting Control
+
+* Turn on the red LED if movement is detected.
+* Use `pir.when_motion = my_function` and `pir.when_no_motion = my_function`. 
+* See s08_02_automatic_lighting_control.py
