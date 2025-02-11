@@ -40,6 +40,8 @@
 
 ## Create, Remove, and Manipulate Files
 
+* Meh.
+
 ## Install and Update Software
 
 ## A Few More Terminal Commands to Gain More Control Over Your Pi
