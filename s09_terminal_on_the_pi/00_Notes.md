@@ -49,3 +49,7 @@
 
 ## A Few More Terminal Commands to Gain More Control Over Your Pi
 
+* To get the IP address of your Pi: `hostname -I`.
+* To se how much space is left on your SD card: `df -h`.
+* To get to the pi config: `sudo raspi-config`.
+* To shut down and reboot your Pi: `sudo shutdown now` or `sudo shutdown -r now` or `sudo reboot`.
