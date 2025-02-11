@@ -30,3 +30,9 @@
   * `os.path.exists(path)` returns `True` if the file exists.
   * `os.remove(path)` removes the file.
 * See s10_01_read_write_files.py
+
+## Create a new Python script from the terminal
+
+* Script should:
+  * Update the python3 lights.py to catch `KeyboardInterrupt` and exit gracefully.
+* See s10_02_read_write_files.py
