@@ -38,11 +38,14 @@
   * `L` jump to the bottom of the screen.
 * To exit between modes, type `Esc`.
 
-## Create, Remove, and Manipulate Files
-
-* Meh.
-
 ## Install and Update Software
+
+* `ssh pi@raspberrypi2.local`
+* `sudo apt update`
+* `sudo apt install vim`
+* `sudo apt remove vim`
+* `sudo apt upgrade`
+* `sudo apt autoremove`
 
 ## A Few More Terminal Commands to Gain More Control Over Your Pi
 
