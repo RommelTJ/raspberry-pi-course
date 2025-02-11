@@ -10,5 +10,10 @@
 * To remove a module: `sudo apt remove python3-gpiozero`.
 * Or: `pip3 uninstall gpiozero`.
 
+## Work with Python from the terminal
 
-
+* From the terminal, you can access the Python shell with `python3`.
+* To exit the Python shell, type `exit()`.
+* To run a program, type `python3 s08_02_detect_movement.py`
+* If you wrap code in a try-catch block, you can catch exceptions. 
+  * This allows you to capture `KeyboardInterrupt` and `SystemExit` exceptions and handle them gracefully.
