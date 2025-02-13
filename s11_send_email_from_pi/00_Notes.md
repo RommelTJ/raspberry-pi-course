@@ -11,3 +11,8 @@
 ## Install a new Python Module: yagmail
 
 * Install using pip: `pip3 install yagmail --break-system-packages`
+
+## Get the Password in Your Python Program
+
+* Read password from a file.
+* See s11_send_email.py
