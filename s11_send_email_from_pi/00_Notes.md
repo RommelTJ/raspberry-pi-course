@@ -16,3 +16,7 @@
 
 * Read password from a file.
 * See s11_send_email.py
+
+## Send your first email from the Raspberry Pi
+
+* See s11_send_email.py
