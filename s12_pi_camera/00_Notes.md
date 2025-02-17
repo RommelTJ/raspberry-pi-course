@@ -12,6 +12,16 @@
 
 ## Take a Photo from the Terminal
 
+* Make a directory for the photos (`/home/pi/Desktop/camera`)
+* `rpicam-still -o /home/pi/Desktop/camera/test.jpg`
+  * To flip, use `--vflip`
+  * To rotate, use `--hflip`
+  * To change size, use `--width 1536 --height 864` (for example)
+  * Together: `rpicam-still --vflip --hflip --width 1536 --height 864 -o /home/pi/Desktop/camera/test.jpg`
+* `libcamera-jpeg --list-cameras`
+* `libcamera-jpeg -o /home/pi/Desktop/camera/test.jpg –immediate`
+* `libcamera-jpeg` is older and not recommended. Use `rpicam-still` instead.
+
 ## Take a Video from the Terminal
 
 ## Take a Photo with Python
