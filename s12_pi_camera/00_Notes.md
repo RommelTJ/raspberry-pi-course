@@ -29,6 +29,7 @@
 * `rpicam-vid --vflip --hflip --width 640 --height 480 -t 7000 -o /home/pi/Desktop/camera/test.mp4`
 * Time is in milliseconds.
 * `rpicam-vid --codec libav --libav-format mp4 --vflip --hflip --width 640 --height 480 -t 7000 -o /home/pi/Desktop/camera/test2.mp4`
+* For more details, see https://www.raspberrypi.com/documentation/computers/camera_software.html#rpicam-vid.
 
 ## Take a Photo with Python
 
