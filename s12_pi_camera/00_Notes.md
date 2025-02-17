@@ -24,6 +24,12 @@
 
 ## Take a Video from the Terminal
 
+* Similar to the photo.
+* `rpicam-vid -o /home/pi/Desktop/camera/test.mp4` (by default it's 5 seconds).
+* `rpicam-vid --vflip --hflip --width 640 --height 480 -t 7000 -o /home/pi/Desktop/camera/test.mp4`
+* Time is in milliseconds.
+* `rpicam-vid --codec libav --libav-format mp4 --vflip --hflip --width 640 --height 480 -t 7000 -o /home/pi/Desktop/camera/test2.mp4`
+
 ## Take a Photo with Python
 
 ## Take a Video with Python
