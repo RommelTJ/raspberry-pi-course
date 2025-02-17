@@ -43,3 +43,8 @@
 * See `s12_02_picamzero_video.py`
 
 ## Take a Series of Pictures
+
+* Take a series of photos every 5 seconds, until the user cancels the program.
+* Put the photos in a new directory. We should create it if it doesn't exist.
+* Photos should always have different names.
+* See `s12_03_photo_series.py`
