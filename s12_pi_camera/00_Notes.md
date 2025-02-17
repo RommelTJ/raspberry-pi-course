@@ -33,6 +33,10 @@
 
 ## Take a Photo with Python
 
+* Using `picamzero` module
+* Install it: `sudo apt update && sudo apt install python3-picamzero`
+* See `s12_01_picamzero.py`
+
 ## Take a Video with Python
 
 ## Take a Series of Pictures
