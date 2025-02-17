@@ -1,4 +1,3 @@
-import os
 from os import path
 from time import sleep
 from picamzero import Camera
