@@ -6,6 +6,10 @@
 
 ## Plug the Camera to your Raspberry Pi
 
+* Open the Pi ports (black cover). Connect the cables with the blue facing the USB ports. Make sure the Pins are tight.
+  * https://www.escogitare.com/blog/en/connect_camera_to_raspberry
+* Instructions are different for the Pi 5.
+
 ## Take a Photo from the Terminal
 
 ## Take a Video from the Terminal
