@@ -17,3 +17,10 @@
 ## Add a new URL and connect Flask with GPIOs
 
 * See `s13_02_flask.py`
+
+## Choose which LED to turn from a web browser
+
+* Choose which LED to turn from a web browser.
+* Validate index and state.
+* Path should be `/led/<int:led_number>/state/<int:state>`
+* See `s13_03_flask.py`
