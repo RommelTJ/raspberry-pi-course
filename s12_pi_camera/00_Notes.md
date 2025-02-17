@@ -39,4 +39,7 @@
 
 ## Take a Video with Python
 
+* Very similar to photos.
+* See `s12_02_picamzero_video.py`
+
 ## Take a Series of Pictures
