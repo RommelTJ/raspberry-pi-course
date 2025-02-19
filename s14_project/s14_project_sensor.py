@@ -28,7 +28,10 @@ class MotionActivatedCamera:
         self.light.off()
 
     def run(self):
-        pause()
+        try:
+            pause()
+        except KeyboardInterrupt:
+            print("Exiting gracefully")
 
 if __name__ == '__main__':
     c = MotionActivatedCamera()
