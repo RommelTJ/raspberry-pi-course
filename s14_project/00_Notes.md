@@ -13,3 +13,11 @@
     * Say how many photos have been taken since last checked.
     * Provide the path to the most recent photo.
 * Finally, we will make the program launch on boot.
+
+## Part 1
+
+* PIR Sensor
+* Camera
+* Write into log file
+* Send email with photo
+* See s14_project_sensor.py
