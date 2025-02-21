@@ -21,3 +21,9 @@
 * Write into log file
 * Send email with photo
 * See s14_project_sensor.py
+
+## Part 2
+
+* Web Server
+* Display last photo on /check-photos
+* See s14_project_server.py
