@@ -3,9 +3,8 @@ from gpiozero import LED, MotionSensor
 from signal import pause
 from picamzero import Camera
 from time import sleep, time
+import yagmail
 
-# TODO: When the sensor detects motion greater than 5 seconds, take a photo and send an email
-# TODO: For each photo that we take, log the time and filename into a log file.
 
 class MotionActivatedCamera:
     def __init__(self, photo_dir: str, log_dir: str):
@@ -27,6 +26,9 @@ class MotionActivatedCamera:
         self.last_photo_time = 0
         self.MOVEMENT_THRESHOLD_SECONDS = 5
         self.MIN_SECONDS_BETWEEN_PHOTOS = 30
+        self.email_password = ""
+        with open("/home/pi/Desktop/code/gmail_password.txt", "r") as f:
+            self.email_password = f.read().rstrip()
 
     def ensure_dir(self, dir_path: str):
         if not path.exists(dir_path):
@@ -51,6 +53,32 @@ class MotionActivatedCamera:
         timestamp = str(time())
         filename = f"{self.photo_dir}/photo_{timestamp}.jpg"
         self.camera.take_photo(filename)
+        self.write_to_log(message=filename)
+        self.send_email()
+
+    def write_to_log(self, message: str):
+        filename = f"{self.log_dir}/log.txt"
+        with open(filename, "a") as f:
+            f.write(f"{message}\n")
+
+    def latest_photo_from_log(self):
+        filename = f"{self.log_dir}/log.txt"
+        with open(filename, "r") as f:
+            lines = f.readlines()
+            return lines[-1].rstrip()
+
+    def send_email(self):
+        print("Sending email...")
+        latest_photo_path = self.latest_photo_from_log()
+        from_email = "[REDACTED]@gmail.com"
+        to_email = "[REDACTED]@gmail.com"
+        yag = yagmail.SMTP(user=from_email, password=self.email_password)
+        yag.send(
+            to=to_email,
+            subject="Movement detected",
+            contents="The camera took a photo",
+            attachments=latest_photo_path
+        )
 
     def run(self):
         try:
