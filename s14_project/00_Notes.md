@@ -25,5 +25,6 @@
 ## Part 2
 
 * Web Server
-* Display last photo on /check-photos
+* Displays number of photos since last visit to /check-photos
+* Displays latest photo taken when going to /check-photos
 * See s14_project_server.py
